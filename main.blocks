@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="HXLx].S?G=PG`c7PU0xh" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_while" id="Z*b94$FU=5w`6uc=Q,|="><value name="COND"><shadow type="logic_boolean" id="!!!Oi|X$qE)``{3$;*$N"><field name="BOOL">TRUE</field></shadow></value><statement name="DO"><block type="spin_one_way_with_speed" id="Mkr%6j6U?pX3W_8o[Rp)"><field name="pin">AnalogPin.P1</field><value name="speed"><shadow type="math_number_minmax" id="9aF*@xg(4v;=ixMnh(1I"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">100</field></shadow></value><next><block type="device_show_leds" id="xMmS]_{b0bgC6,QMx7_x"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # . # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="m(-0OqI0n7vk(/MVE^uN"><value name="pause"><shadow type="timePicker" id="(.}J%(4)JDVTTfrG{6pH"><field name="ms">5000</field></shadow></value><next><block type="spin_other_way_with_speed" id="4eIM%jzD[$qxgeFwkRj5"><field name="pin">AnalogPin.P1</field><value name="speed"><shadow type="math_number_minmax" id="*8@H+2*`1vZ{GCd|CSGW"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">100</field></shadow></value><next><block type="device_show_leds" id="%.W]-F^:]zC$UU^!E(88"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="8~#X1G.H.HY.?/pXG!gW"><value name="pause"><shadow type="timePicker" id="6UWcvc,S80SG{az[DHlq"><field name="ms">5000</field></shadow></value><next><block type="turn_off_motor" id="+jAg;-/nVlO=|6=UyN?."><field name="pin">DigitalPin.P1</field><next><block type="device_show_leds" id="C{`AqFI.Xty3Bt*gxnS{"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="!RATb25F/po!$1CzWcfP"><value name="pause"><shadow type="timePicker" id="+_,%msr.z6!E~f8]v/G)"><field name="ms">5000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_forever" id="|t*sY~@:r;%g;xx20cBv" x="585" y="95"></block><block type="pxt-on-start" id="V{3j1h2g8J!sQ#W9,z,/" x="587" y="239"></block></xml>
